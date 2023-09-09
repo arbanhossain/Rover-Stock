@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 09b42ff52abda1b499ea2fe4a7c59cc6, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44402185, g: 0.49316466, b: 0.57223153, a: 1}
+  m_IndirectSpecularColor: {r: 0.5132811, g: 0.17504856, b: 0.1537545, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -137,47 +137,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7306778529546843, guid: fc6c58b235b999546bc0fe119aac05fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -234.4
+      value: 399.76285
       objectReference: {fileID: 0}
     - target: {fileID: 7306778529546843, guid: fc6c58b235b999546bc0fe119aac05fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -29.47
+      value: -49.966805
       objectReference: {fileID: 0}
     - target: {fileID: 7306778529546843, guid: fc6c58b235b999546bc0fe119aac05fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -103.1
+      value: 312.4917
       objectReference: {fileID: 0}
     - target: {fileID: 7306778529546843, guid: fc6c58b235b999546bc0fe119aac05fe, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.61379623
       objectReference: {fileID: 0}
     - target: {fileID: 7306778529546843, guid: fc6c58b235b999546bc0fe119aac05fe, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.08953839
       objectReference: {fileID: 0}
     - target: {fileID: 7306778529546843, guid: fc6c58b235b999546bc0fe119aac05fe, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.7841354
       objectReference: {fileID: 0}
     - target: {fileID: 7306778529546843, guid: fc6c58b235b999546bc0fe119aac05fe, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.019199753
       objectReference: {fileID: 0}
     - target: {fileID: 7306778529546843, guid: fc6c58b235b999546bc0fe119aac05fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -6.664
       objectReference: {fileID: 0}
     - target: {fileID: 7306778529546843, guid: fc6c58b235b999546bc0fe119aac05fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -139.608
       objectReference: {fileID: 0}
     - target: {fileID: 7306778529546843, guid: fc6c58b235b999546bc0fe119aac05fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 7.767
       objectReference: {fileID: 0}
     - target: {fileID: 1574677706444089970, guid: fc6c58b235b999546bc0fe119aac05fe, type: 3}
       propertyPath: m_Name
       value: rover
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444889600470658076, guid: fc6c58b235b999546bc0fe119aac05fe, type: 3}
+      propertyPath: maxMotorTorque
+      value: 400
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
