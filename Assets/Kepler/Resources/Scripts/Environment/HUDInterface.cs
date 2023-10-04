@@ -47,11 +47,11 @@ public class HUDInterface : MonoBehaviour
 
     private void UpdateTimeStepGUI()
     {
-        int timestepValue = (int)(timestepSlider.value - (timestepSlider.maxValue / 2f));
+        int timestepValue = (int)(timestepSlider.value);
         timestepReadout.text = timestepValue == 0 ? "0" : timestepValue.ToString();
 
-        float percent = Mathf.Abs(timestepValue) / (timestepSlider.maxValue / 2f);
-        float scalar = 20000000 * percent / 20f;
+        float percent = Mathf.Abs(timestepValue) / 2f;
+        float scalar = 200000 * percent;
         GlobalTime.SetTickRate(timestepValue == 0 ? 1 : timestepValue * scalar);
 
         yearReadout.text = GlobalTime.Year.ToString("F0");

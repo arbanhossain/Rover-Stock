@@ -51,6 +51,8 @@ public class SolarCamController : MonoBehaviour
 
     public Camera AttachedCamera { get { return attachedCamera; } }
 
+    public Transform focusedObject;
+
     private void Awake()
     {
         Cursor.visible = false;
@@ -96,7 +98,7 @@ public class SolarCamController : MonoBehaviour
                 yaw = Mathf.Lerp(yaw, defaultYawAngle, (camResetRate - resetTimer) / camResetRate);
                 pitch = Mathf.Lerp(pitch, defaultPitchAngle, (camResetRate - resetTimer) / camResetRate);
                 zoom = Mathf.Lerp(zoom, defaultZoom, (camResetRate - resetTimer) / camResetRate);
-                targetPos = Vector3.Lerp(targetPos, CelestialManager.centralBody.transform.position, (camResetRate - resetTimer) / camResetRate);
+                targetPos = Vector3.Lerp(targetPos, focusedObject.position, (camResetRate - resetTimer) / camResetRate);
                 targetPos.y = 0f;
             }
             else
