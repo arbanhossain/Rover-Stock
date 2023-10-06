@@ -1,0 +1,125 @@
+@import "config";
+@import "../../zcore/assets/scss/core.scss";
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	background-color: map-get($colors, primary);
+	transition: opacity 0.8s cubic-bezier(.77, 0, .18, 1);
+	opacity: 0;
+	&.loading{
+	opacity: 1;
+	}
+}
+
+
+// Custom Font
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPT-Light.eot');
+	src: url('../fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FuturaPT-Light.woff2') format('woff2'),
+		url('../fonts/FuturaPT-Light.ttf') format('truetype'),
+		url('../fonts/FuturaPT-Light.svg#FuturaPT-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPT-Book.eot');
+	src: url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FuturaPT-Book.woff2') format('woff2'),
+		url('../fonts/FuturaPT-Book.ttf') format('truetype'),
+		url('../fonts/FuturaPT-Book.svg#FuturaPT-Book') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+body{
+	color: map-get($colors, 4);
+	// padding: 0 57px;
+}
+h1, h2, h3{
+	font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6{
+	color: map-get($colors, 1);
+}
+label{
+	font-size: modular-scale(0);
+	font-weight: 500;
+	font-family: $font-2;
+}
+select.form-control:not([size]):not([multiple]) {
+ 	height: calc(2.25rem + 10px);
+}
+.btn{
+	border-width: 2px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.background-holder.overlay.overlay-freya:before{
+	background: linear-gradient(to top, rgba(0,0,0,0.9) 6%,rgba(0,0,0,0.75) 12%,rgba(0,0,0,0) 30%,rgba(0,0,0,0) 100%);
+}
+.znav-freya{
+	background-color: transparent;
+	.container{
+		background: linear-gradient(to top, rgba(255,255,255,0.9) 100%,rgba(255,255,255,1) 0%);
+		margin: 20px auto;
+		border-radius: $radius-secondary;
+		box-shadow: 0 1px 3px rgba(0,0,0,.15);
+	}
+	.has-dropdown .dropdown{
+		min-width: 180px;
+	}
+}
+.h-classic{
+	min-height: 70vh;
+}
+.mb_YTPBar{
+	display: none !important;
+}
+
+
+// future css for future users :D
+html.safari{
+	.znav-freya{
+		.container{
+			backdrop-filter: blur(10px);
+		}
+		.dropdown{
+			backdrop-filter: blur(10px);
+			background-color: rgba(255,255,255,.8)
+		}
+	}
+}
+
+
+@keyframes loading {
+    0% {
+        transform: translateX(-100%)
+    }
+    100% {
+        transform: translateX(100%)
+    }
+}
+
+.loader-box{
+	overflow-x: hidden;
+	border-radius: 2px;
+	width: 220px;
+	.loader{
+		height: 2px;
+		border-radius: 2px;
+		width: 100%;
+		background: white;
+		animation-timing-function: cubic-bezier(.77,0,.18,1);
+		animation: loading 0.8s infinite;
+	}
+}
