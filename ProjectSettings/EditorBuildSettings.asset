@@ -5,13 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Museum.unity
     guid: 7c3427e45cdccf54fbadcdbc872e1092
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Launch Video.unity
     guid: 8226100738188ec43a62f65f784b22cf
   - enabled: 1
     path: Assets/Kepler/Scenes/SolarSystem.unity
     guid: 3ec377968634cd64cb45f5b4388a23f0
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9480e4d34ffe7934ea84b3c840658540, type: 2}
+    WebXR.Settings: {fileID: 11400000, guid: 2a33aac41bd41a940b14f6b3e9a4c7ba, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: eecfdb7633c551548a6a613e909e9dae, type: 2}
