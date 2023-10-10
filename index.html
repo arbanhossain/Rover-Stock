@@ -7,7 +7,7 @@
         <!--  -->
         <!--    Document Title-->
         <!-- =============================================-->
-        <title>Freya | Website, template crafting machine</title>
+        <title>Perseverance Reimagined</title>
         <!--  -->
         <!--    Favicons-->
         <!--    =============================================-->
@@ -30,7 +30,7 @@
         <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
         <link href="assets/lib/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
         <link href="assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-        <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+        <link href="assets/lib/jquery.mb.ytplayer/dist/css/jquery.mb.YTPlayer.min.css" rel="stylesheet">
         <!-- Main stylesheet and color file-->
         <link href="assets/css/style.css" rel="stylesheet">
         <link href="assets/css/custom.css" rel="stylesheet">
@@ -47,7 +47,7 @@
             <div class="znav-container znav-white znav-freya znav-fixed" id="znav-container">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg"><a class="navbar-brand overflow-hidden pr-3" href="index.html">
-                            <div class="background-1 radius-br-0 radius-secondary lh-1 color-white fs-0" style="padding: 7px 10px 7px 13px;">Freya</div>
+                            <div class="background-1 radius-br-0 radius-secondary lh-1 color-white fs-0" style="padding: 7px 10px 7px 13px;">ICARUS</div>
                             <!-- Incase you are using image-->
                             <!-- <img src="assets/images/logo-freya.png" alt="Freya" width="70"/>-->
                         </a>
@@ -60,199 +60,117 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav fs-0">
-                                <li><a href="JavaScript:void(0)">Home</a>
-                                    <ul class="dropdown">
-                                        <li><a href="index.html">Slider Header</a></li>
-                                        <li><a href="index--header-slider-classic.html">Slider Classic</a></li>
-                                        <li><a href="index--header-static.html">Static Header</a></li>
-                                        <li><a href="index--header-static-classic.html">Static Classic</a></li>
-                                        <li><a href="index--header-youtube-video.html">Youtube Background </a></li>
-                                        <li><a href="index--header-youtube-video-classic.html">Youtube Classic</a></li>
-                                        <li><a href="index--header-selfhosted-video.html">Self-hosted Video</a></li>
-                                        <li><a href="index--header-selfhosted-video-classic.html">Self-hosted Classic</a></li>
-                                    </ul>
+                                <li><a href="#stages">Stages</a>
                                 </li>
-                                <li><a href="JavaScript:void(0)">Pages</a>
-                                    <ul class="dropdown">
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="recognition.html">Recognition</a></li>
-                                        <li><a href="blank.html">Blank Page</a></li>
-                                        <li><a href="404.html">404 Page</a></li>
-                                        <li><a href="JavaScript:void(0)">Account</a>
-                                            <ul class="dropdown">
-                                                <li><a href="login.html">Login</a></li>
-                                                <li><a href="registration.html">Registration</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                <li><a href="#rover">Rover</a>
+                                    
                                 </li>
-                                <li><a href="JavaScript:void(0)">Projects</a>
-                                    <ul class="dropdown">
-                                        <li><a href="projects.html">Projects Gallery</a></li>
-                                        <li><a href="project.html">Single Project</a></li>
-                                    </ul>
+                                <li><a href="#route">Route</a>
+                                    
                                 </li>
-                                <li><a href="JavaScript:void(0)">Blog</a>
-                                    <ul class="dropdown">
-                                        <li><a href="blog.html">Blog list</a></li>
-                                        <li><a href="blog-single.html">Single blog</a></li>
-                                    </ul>
+                                <li><a href="#live">Live data from Mars</a>
+                                    
                                 </li>
-                                <li><a href="JavaScript:void(0)">Contact</a>
-                                    <ul class="dropdown">
-                                        <li><a href="contact-1.html">Contact 1</a></li>
-                                        <li><a href="contact-2.html">Contact 2</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="JavaScript:void(0)">Elements</a>
-                                    <ul class="dropdown">
-                                        <li><a href="components-buttons.html">Buttons</a></li>
-                                        <li><a href="components-colors.html">Colors</a></li>
-                                        <li><a href="components-googlemap.html">Google Map</a></li>
-                                        <li><a href="components-grid.html">Grid</a></li>
-                                        <li><a href="components-icons.html">Icons</a></li>
-                                        <li><a href="components-layouthelpers.html">Layout Helpers</a></li>
-                                        <li><a href="components-modal-video.html">Modal Video</a></li>
-                                        <li><a href="components-owlcarousal.html">Owl Carousal</a></li>
-                                        <li><a href="components-slider.html">Slider</a></li>
-                                        <li><a href="components-typography.html">Typography</a></li>
-                                    </ul>
+                                <li><a href="#team">Meet the Team</a>
+                                    
                                 </li>
                             </ul>
                             <ul class="navbar-nav fs-0 ml-lg-auto">
-                                <li class="text-center"><a class="pl-3 pl-lg-1 d-inline-block" href="#"><span class="fa fa-facebook"></span></a><a class="pl-3 pl-lg-1 d-inline-block" href="#"><span class="fa fa-twitter"></span></a><a class="pl-3 pl-lg-1 d-inline-block" href="#"><span class="fa fa-instagram"></span></a><a class="pl-3 pl-lg-1 d-inline-block pr-0" href="#"><span class="fa fa-dribbble"></span></a></li>
+                                <li class="text-center">
+                                    <!-- <a class="pl-3 pl-lg-1 d-inline-block" href="#"><span class="fa fa-facebook"></span></a>
+                                    <a class="pl-3 pl-lg-1 d-inline-block" href="#"><span class="fa fa-twitter"></span></a>
+                                    <a class="pl-3 pl-lg-1 d-inline-block" href="#"><span class="fa fa-instagram"></span></a> -->
+                                    <a class="pl-3 pl-lg-1 d-inline-block pr-0" href="https://github.com/arbanhossain/rover-Stock"><span class="">Github</span></a>
+                                    <a class="pl-3 pl-lg-1 d-inline-block pr-0" href="https://github.com/arbanhossain/rover-Stock"><span class="fa fa-github"></span></a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
-            <div class="flexslider flexslider-simple h-full loading parallax">
-                <ul class="slides">
-                    <li data-zanim-timeline="{}">
-                        <section class="py-0 color-white">
-                            <div class="background-holder overlay overlay-freya" style="background-image:url(assets/images/header_1.jpg);">
-                            </div>
-                            <!--/.background-holder-->
-                            <div class="container">
-                                <div class="row justify-content-start align-items-end pt-11 pb-6 h-full" data-zanim-timeline="{}">
-                                    <div class="col pb-lg-0">
-                                        <div class="row align-items-end parallax" data-rellax-speed="2">
-                                            <div class="col-lg">
-                                                <div class="overflow-hidden">
-                                                    <p class="mb-1 text-uppercase ls" data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.1}'>AvePoint Richmond</p>
-                                                </div>
-                                                <div class="overflow-hidden">
-                                                    <h2 class="color-white fw-500 mb-4 mb-lg-0" data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0}'>More livable spaces</h2>
-                                                </div>
-                                            </div>
-                                            <div class="col text-lg-right">
-                                                <div class="overflow-hidden">
-                                                    <div data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.2}'><a class="btn btn-sm btn-outline-white" href="#">View Case Study</a></div>
-                                                </div>
-                                            </div>
-                                        </div>
+            <section class="py-0 color-white">
+                <div class="background-holder" style="background-image:url('assets/images/landing_thumbnail.png');">
+                    <div class="youtube-background" data-property='{"videoURL":"https://youtu.be/r4-XRyOvnw0","startAt":4,"stopAt":14,"mute":true,"showYTLogo":false}'></div>
+                </div>
+                <!--/.background-holder-->
+                <div class="container">
+                    <div class="row justify-content-start align-items-end pt-11 pb-6 h-full" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="col pb-lg-0">
+                            <div class="row align-items-end">
+                                <div class="col-lg">
+                                    <div class="overflow-hidden">
+                                        <p class="mb-1 text-uppercase ls" data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.1}'>Team ICARUS</p>
+                                    </div>
+                                    <div class="overflow-hidden">
+                                        <h2 class="color-white fw-500 mb-4 mb-lg-0" data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0}'>Perseverance Reimagined</h2>
                                     </div>
                                 </div>
-                                <!--/.row-->
-                            </div>
-                            <!--/.container-->
-                        </section>
-                    </li>
-                    <li data-zanim-timeline="{}">
-                        <section class="py-0 color-white">
-                            <div class="background-holder overlay overlay-freya" style="background-image:url(assets/images/header_2.jpg);">
-                            </div>
-                            <!--/.background-holder-->
-                            <div class="container">
-                                <div class="row justify-content-start align-items-end pt-11 pb-6 h-full" data-zanim-timeline="{}">
-                                    <div class="col pb-lg-0">
-                                        <div class="row align-items-end parallax" data-rellax-speed="2">
-                                            <div class="col-lg">
-                                                <div class="overflow-hidden">
-                                                    <p class="mb-1 text-uppercase ls" data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.1}'>French Valley</p>
-                                                </div>
-                                                <div class="overflow-hidden">
-                                                    <h2 class="color-white fw-500 mb-4 mb-lg-0" data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0}'>Luxurious Apartment</h2>
-                                                </div>
-                                            </div>
-                                            <div class="col text-lg-right">
-                                                <div class="overflow-hidden">
-                                                    <div data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.2}'><a class="btn btn-sm btn-outline-white" href="#">More about Freya</a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <!-- <div class="col text-lg-right">
+                                    <div class="overflow-hidden">
+                                        <div data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.2}'><a class="btn btn-sm btn-outline-white" href="#">More about Freya</a></div>
+                                    </div> -->
                                 </div>
-                                <!--/.row-->
                             </div>
-                            <!--/.container-->
-                        </section>
-                    </li>
-                    <li data-zanim-timeline="{}">
-                        <section class="py-0 color-white">
-                            <div class="background-holder overlay overlay-freya" style="background-image:url(assets/images/header_3.jpg);">
-                            </div>
-                            <!--/.background-holder-->
-                            <div class="container">
-                                <div class="row justify-content-start align-items-end pt-11 pb-6 h-full" data-zanim-timeline="{}">
-                                    <div class="col pb-lg-0">
-                                        <div class="row align-items-end parallax" data-rellax-speed="2">
-                                            <div class="col-lg">
-                                                <div class="overflow-hidden">
-                                                    <p class="mb-1 text-uppercase ls" data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.1}'>Upper Chesterfield</p>
-                                                </div>
-                                                <div class="overflow-hidden">
-                                                    <h2 class="color-white fw-500 mb-4 mb-lg-0" data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0}'>Sorption Marking Studio</h2>
-                                                </div>
-                                            </div>
-                                            <div class="col text-lg-right">
-                                                <div class="overflow-hidden">
-                                                    <div data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.2}'><a class="btn btn-sm btn-outline-white" href="#">More about Sorption</a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/.row-->
-                            </div>
-                            <!--/.container-->
-                        </section>
-                    </li>
-                </ul>
-            </div>
-            <section class="text-center background-white">
+                        </div>
+                    </div>
+                    <!--/.row-->
+                </div>
+                <!--/.container-->
+            </section>
+            <section class="text-center background-white" id="stages">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-10">
-                            <h3 class="mb-4">Freya Inc. is the hub for world's top architects and inventors, ready to turn your imagination into reality</h3>
-                            <p>All photographs provided for demo purposes only.</p>
+                            <h3 class="mb-4">Team Icarus aims to create immersive VR applications that will mesmerize the players by providing unparalleled experiences</h3>
+                            <p>Our mission is to push the boundaries of virtual reality by combining cutting-edge technology with innovative design to transport users to new worlds</p>
                         </div>
                     </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 col-lg-8">
+                            <h3 class="mt-6 mb-2">Experience our game in WebVR</h3>
+                        </div>
+                    </div>
+                    
                     <div class="row mt-6">
                         <div class="col-lg-4">
-                            <div class="row align-items-center">
-                                <div class="col-md-6 col-lg-12"><img class="w-100" src="assets/images/img_1.jpg" alt="" /></div>
+                            <a href="gallery.html" style="text-decoration: none;" >
+                            <div class="row align-items-center justify-content-center" style="height: 25rem" >
+                                <div class="col-md-6 col-lg-12">
+                                    <img class="w-100"  src="assets/images/gallery.png" alt="" />
+                                </div>
                                 <div class="col-md-6 col-lg-12 text-md-left text-lg-center">
-                                    <h5 class="ls text-uppercase mt-4 mb-3">Residential</h5>
-                                    <p class="text-justify">From Manitoba to Brooklyn, affordable, comfortable and livable houses for families of all shapes and sizes are covered by us. Cras justo odio, dapibus, egestas eget quam lorem ipsum.</p>
+                                    <h5 class="ls text-uppercase mt-4 mb-3">3D Gallery</h5>
+                                    <p class="text-justify">User interactive repository containing Perseverance and essential components of it along with exhibition of previous candidate landing sites such as Jezero Crater, NE Syrtis, and Columbia Hills.</p>
                                 </div>
                             </div>
+
+                            <button type="button" class="btn btn-outline-secondary p-4" style="width: 100%; " > 
+                                <a href="gallery.html" >Play in WebVR</a>
+                            </button>
+                            </a>
                         </div>
                         <div class="col-lg-4 mt-4 mt-lg-0">
-                            <div class="row align-items-center">
-                                <div class="col-md-6 col-lg-12"><img class="w-100" src="assets/images/img_2.jpg" alt="" /></div>
+                            <div class="row align-items-center"  style="height: 25rem">
+                                <div class="col-md-6 col-lg-12"><img class="w-100" src="assets/images/orbit.png" alt="" /></div>
                                 <div class="col-md-6 col-lg-12 text-md-left text-lg-center">
-                                    <h5 class="ls text-uppercase mt-4 mb-3">Commercial</h5>
-                                    <p class="text-justify">We have also designing interiors for restaurants, bar or office spaces. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dolor.</p>
+                                    <h5 class="ls text-uppercase mt-4 mb-3">Orbital Transfer</h5>
+                                    <p class="text-justify">Captivating and delicate orbital manuever from earth’s orbit to mars’s orbit with user control that guides the spacecraft towards the Red Planet.</p>
                                 </div>
                             </div>
+
+                            <button type="button" class="btn btn-outline-secondary p-4 btn-disabled" style="width: 100%; " > 
+                                Under deployment
+                            </button>
                         </div>
                         <div class="col-lg-4 mt-4 mt-lg-0">
-                            <div class="row align-items-center">
-                                <div class="col-md-6 col-lg-12"><img class="w-100" src="assets/images/img_3.jpg" alt="" /></div>
+                            <div class="row align-items-center"  style="height: 25rem">
+                                <div class="col-md-6 col-lg-12"><img class="w-100" src="assets/images/mars_exp.webp" alt="" /></div>
                                 <div class="col-md-6 col-lg-12 text-md-left text-lg-center">
-                                    <h5 class="ls text-uppercase mt-4 mb-3">Hospitality</h5>
-                                    <p class="text-justify">You need your guests to have an unforgettable experience, Freya Inc. is ready to deliver. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus.</p>
+                                    <h5 class="ls text-uppercase mt-4 mb-3">Mars Exploration</h5>
+                                    <p class="text-justify">Detailed adventure of Perseverance on Mars including its scientific mission, drilling into rocks, and exploring the terrain. Being a part of the mission, tiny ingenuity shows its powered flight hovering over the martian landscape.</p>
+                                    <button type="button" class="btn btn-outline-secondary p-4" style="width: 95%; " > 
+                                        <a href="mars.html" >Play in WebVR</a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -261,18 +179,19 @@
                 </div>
                 <!--/.container-->
             </section>
-            <section class="py-10 overflow-hidden text-center">
-                <div class="background-holder overlay overlay-1 parallax" style="background-image:url(assets/images/banner_1.jpg);" data-rellax-percentage="0.5">
+            
+            <section class="py-10 overflow-hidden text-center" id="rover">
+                <div class="background-holder overlay overlay-1 parallax" style="background-image:url(assets/images/percy.jpg);" data-rellax-percentage="0.5">
                 </div>
                 <!--/.background-holder-->
                 <div class="container">
                     <div class="row" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="col">
                             <div class="overflow-hidden">
-                                <h1 class="fs-5 fs-sm-6 color-white mb-3" data-zanim='{"delay":0}'>Museo</h1>
+                                <h1 class="fs-5 fs-sm-6 color-white mb-3" data-zanim='{"delay":0}'>Gameplay Footage</h1>
                             </div>
                             <div class="overflow-hidden">
-                                <h4 class="ls fw-300 text-uppercase color-9 mb-0" data-zanim='{"delay":0.1}'>Manitoba</h4>
+                                <h4 class="ls fw-300 text-uppercase color-9 mb-0" data-zanim='{"delay":0.1}'>Explore all the stages of NASA Mars 2020 Mission </h4>
                             </div>
                         </div>
                     </div>
@@ -284,31 +203,30 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-10 col-lg-8">
-                            <h3 class="mb-4">A coffee shop gains a warmer look</h3>
-                            <p class="mb-7">Museo coffees got in touch with Freya for their renovation. We took over and asked them to have a cup of coffee for themselves while the job is done! Sed posuere consectetur est at lobortis. Fusce dapibs, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pellentsque ornare se lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                            <h3 class="mb-4">Perseverance Mars Mission Virtual Museum</h3>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6 mb-4"><img class="w-100" src="assets/images/img_4.jpg" alt="" /></div>
-                        <div class="col-lg-6 mb-4"><img class="w-100" src="assets/images/img_5.jpg" alt="" /></div>
-                        <div class="col-12 mb-4"><img class="w-100" src="assets/images/img_6.jpg" alt="" /></div>
+                    <div class="row" style="display: flex; justify-content: center; align-items: center;">
+                        <iframe width="894" height="503" src="https://www.youtube.com/embed/RjKzqNW6ti0" title="Project Perseverance Re-Imagined Museum Gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <!-- <iframe src='https://www.youtube.com/watch?v=RjKzqNW6ti0' width='100%' height='650' scrolling='no' frameborder='0' allowfullscreen></iframe> -->
                     </div>
                     <!--/.row-->
                 </div>
                 <!--/.container-->
             </section>
-            <section class="py-10 overflow-hidden text-center">
-                <div class="background-holder overlay overlay-1 parallax" style="background-image:url(assets/images/banner_2.jpg);" data-rellax-percentage="0.5">
+            
+            <section class="py-10 overflow-hidden text-center" id="rover">
+                <div class="background-holder overlay overlay-1 parallax" style="background-image:url(assets/images/percy.jpg);" data-rellax-percentage="0.5">
                 </div>
                 <!--/.background-holder-->
                 <div class="container">
                     <div class="row" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="col">
                             <div class="overflow-hidden">
-                                <h1 class="fs-5 fs-sm-6 color-white mb-3" data-zanim='{"delay":0}'>A Touch of Green</h1>
+                                <h1 class="fs-5 fs-sm-6 color-white mb-3" data-zanim='{"delay":0}'>Exploring Perseverance</h1>
                             </div>
                             <div class="overflow-hidden">
-                                <h4 class="ls fw-300 text-uppercase color-9 mb-0" data-zanim='{"delay":0.1}'>in Brooklyn</h4>
+                                <h4 class="ls fw-300 text-uppercase color-9 mb-0" data-zanim='{"delay":0.1}'>Explore every intricate part of Perseverance</h4>
                             </div>
                         </div>
                     </div>
@@ -318,70 +236,32 @@
             </section>
             <section class="text-center">
                 <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-md-10 col-lg-8">
-                            <h3 class="mb-4">A Brooklyn space becomes greener than ever.</h3>
-                            <p class="mb-7">With Freya's magical touch, a office space at Brooklyn becomes greener than ever. Cras matti consectetur purus st amet fermentum. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia qua venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula neget.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 mb-4"><img class="w-100" src="assets/images/img_7.jpg" alt="" /></div>
-                        <div class="col-lg-6 mb-4"><img class="w-100" src="assets/images/img_8.jpg" alt="" /></div>
-                        <div class="col-lg-6 mb-4"><img class="w-100" src="assets/images/img_9.jpg" alt="" /></div>
-                    </div>
-                    <!--/.row-->
-                </div>
-                <!--/.container-->
-            </section>
-            <section class="py-10 overflow-hidden text-center">
-                <div class="background-holder overlay overlay-1 parallax" style="background-image:url(assets/images/banner_3.jpg);" data-rellax-percentage="0.5">
-                </div>
-                <!--/.background-holder-->
-                <div class="container">
-                    <div class="row" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="col">
-                            <div class="overflow-hidden">
-                                <h1 class="fs-5 fs-sm-6 color-white mb-3" data-zanim='{"delay":0}'>Prestana Remereo</h1>
-                            </div>
-                            <div class="overflow-hidden">
-                                <h4 class="ls fw-300 text-uppercase color-9 mb-0" data-zanim='{"delay":0.1}'>Rio De Janeiro</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.row-->
-                </div>
-                <!--/.container-->
-            </section>
-            <section class="text-center">
-                <div class="container">
-                    <div class="row justify-content-center">
+                    <!-- <div class="row justify-content-center">
                         <div class="col-md-10 col-lg-8">
                             <h3 class="mb-4">Prestana Remereo deserved a new coat of paint</h3>
                             <p class="mb-7">Prestana Remereo wanted renovation, we simply delivered. Nullam quis risus eget urna mollis ornare vel leo. Donec sed odio dui. Nullam quis risus eget ua mollis ornare vel eu leo. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="row">
-                        <div class="col-lg-6 mb-4"><img class="w-100" src="assets/images/img_10.jpg" alt="" /></div>
-                        <div class="col-lg-6 mb-4"><img class="w-100" src="assets/images/img_11.jpg" alt="" /></div>
-                        <div class="col-lg-6 mb-4"><img class="w-100" src="assets/images/img_13.jpg" alt="" /></div>
-                        <div class="col-lg-6 mb-4"><img class="w-100" src="assets/images/img_12.jpg" alt="" /></div>
+                        <iframe src='https://mars.nasa.gov/layout/embed/model/?s=6' width='100%' height='650' scrolling='no' frameborder='0' allowfullscreen></iframe>
                     </div>
                     <!--/.row-->
                 </div>
                 <!--/.container-->
             </section>
-            <section class="py-10 overflow-hidden text-center">
-                <div class="background-holder overlay overlay-1 parallax" style="background-image:url(assets/images/banner_4.jpg);" data-rellax-percentage="0.5">
+            
+            <section class="py-10 overflow-hidden text-center" id="route">
+                <div class="background-holder overlay overlay-1 parallax" style="background-image:url(assets/images/route.webp);" data-rellax-percentage="0.5">
                 </div>
                 <!--/.background-holder-->
                 <div class="container">
                     <div class="row" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="col">
                             <div class="overflow-hidden">
-                                <h1 class="fs-5 fs-sm-6 color-white mb-3" data-zanim='{"delay":0}'>Exquisite</h1>
+                                <h1 class="fs-5 fs-sm-6 color-white mb-3" data-zanim='{"delay":0}'>Route map</h1>
                             </div>
                             <div class="overflow-hidden">
-                                <h4 class="ls fw-300 text-uppercase color-9 mb-0" data-zanim='{"delay":0.1}'>Hawaii</h4>
+                                <h4 class="ls fw-300 text-uppercase color-9 mb-0" data-zanim='{"delay":0.1}'>A realtime route of Perseverance on Mars</h4>
                             </div>
                         </div>
                     </div>
@@ -391,17 +271,232 @@
             </section>
             <section class="text-center">
                 <div class="container">
-                    <div class="row justify-content-center">
+                    <!-- <div class="row justify-content-center">
                         <div class="col-md-10 col-lg-8">
-                            <h3 class="mb-4">Luxurious lifestyle in the Mansion</h3>
-                            <p class="mb-7">No matter the task, Freya Inc. is up for it. Cum sociis natoque penatibus et magnis dis parturient bee, nascetur ridiculus mus. Nulla vitae elit libero, pharetra. Integer posuere erat ante venenatis posuere velit aliquet. Etiam wagner moura porta malesuada magna mollis euismod mondar alu aflak.</p>
+                            <h3 class="mb-4">A coffee shop gains a warmer look</h3>
+                            <p class="mb-7">Museo coffees got in touch with Freya for their renovation. We took over and asked them to have a cup of coffee for themselves while the job is done! Sed posuere consectetur est at lobortis. Fusce dapibs, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pellentsque ornare se lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                        </div>
+                    </div> -->
+                    <div class="row">
+                        <iframe src='https://mars.nasa.gov/maps/location/?mission=M20&site=NOW' width='100%' height='650' frameborder='0' allowfullscreen></iframe>
+                    </div>
+                    <!--/.row-->
+                </div>
+                <!--/.container-->
+            </section>
+            <section class="py-10 overflow-hidden text-center" id="live">
+                <div class="background-holder overlay overlay-1 parallax" style="background-image:url(assets/images/landscape.jpg);" data-rellax-percentage="0.5">
+                </div>
+                <!--/.background-holder-->
+                <div class="container">
+                    <div class="row" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="col">
+                            <div class="overflow-hidden">
+                                <h1 class="fs-5 fs-sm-6 color-white mb-3" data-zanim='{"delay":0}'>Live weather update</h1>
+                            </div>
+                            <div class="overflow-hidden">
+                                <h4 class="ls fw-300 text-uppercase color-9 mb-0" data-zanim='{"delay":0.1}'>Realtime update of Mars weather at Perseverance's location</h4>
+                            </div>
                         </div>
                     </div>
+                    <!--/.row-->
+                </div>
+                <!--/.container-->
+            </section>
+            <section class="text-center">
+                <div class="container">
+                    <!-- <div class="row justify-content-center">
+                        <div class="col-md-10 col-lg-8">
+                            <h3 class="mb-4">A Brooklyn space becomes greener than ever.</h3>
+                            <p class="mb-7">With Freya's magical touch, a office space at Brooklyn becomes greener than ever. Cras matti consectetur purus st amet fermentum. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia qua venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula neget.</p>
+                        </div>
+                    </div> -->
                     <div class="row">
-                        <div class="col-12 mb-4"><img class="w-100" src="assets/images/img_14.jpg" alt="" /></div>
-                        <div class="col-lg-6 mb-4"><img class="w-100" src="assets/images/img_16.jpg" alt="" /></div>
-                        <div class="col-lg-6 mb-4"><img class="w-100" src="assets/images/img_17.jpg" alt="" /></div>
-                        <div class="col-12"><img class="w-100" src="assets/images/img_15.jpg" alt="" /></div>
+                        <iframe src='https://mars.nasa.gov/layout/embed/image/m20weather/' width='100%' height='800' scrolling='no' frameborder='0' allowfullscreen></iframe>
+                    </div>
+                    <!--/.row-->
+                </div>
+                <!--/.container-->
+            </section>
+            <section class="py-10 overflow-hidden text-center" id="team">
+                <div class="background-holder overlay overlay-1 parallax" style="background-image:url(assets/images/icarus_selfie.jpg);" data-rellax-percentage="0.5">
+                </div>
+                <!--/.background-holder-->
+                <div class="container">
+                    <div class="row" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="col">
+                            <div class="overflow-hidden">
+                                <h1 class="fs-5 fs-sm-6 color-white mb-3" data-zanim='{"delay":0}'>Team ICARUS</h1>
+                            </div>
+                            <div class="overflow-hidden">
+                                <h4 class="ls fw-300 text-uppercase color-9 mb-0" data-zanim='{"delay":0.1}'></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.row-->
+                </div>
+                <!--/.container-->
+
+            </section>
+            <section class="text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 col-lg-8">
+                            <img src="assets/images/icarus_team.png" alt="">
+                            <h3 class="mb-4">Our Impacts and Goals</h3>
+                            <p class="mb-7">Through this project, we aim to not just provide an experience, but create lasting impact that will resonate for years to come. Here are some of our goals and future impact:</p>
+                            <p class="mb-7" style="text-align: left;">
+                                1. Educational Innovation<br>
+                                2. Visual Learning<br>
+                                3. Awareness of Technical and Space Milestones<br>
+                                4. Utilize innumerable open NASA data to create a once-in-a-lifetime experience<br>
+                                5. Sparking Curiosity for Next Generation of our country’s youth<br>
+                                6. Underprivileged children getting affordable quality education<br>
+                                7. Filling the void in VR space experience <br>
+                                8. Suitable for children with special needs</p>
+                        </div>
+                        <div class="col-md-10 col-lg-8">
+                            <h3 class="mb-4">References</h3>
+                            <p class="mb-7">Through the use of numerous NASA open source data and APIs, and other resources, our project came to fruition:</p>
+                            <p class="mb-7" style="text-align: left;">
+                                1. Educational Innovation<br>
+                                2. Visual Learning<br>
+                                3. Awareness of Technical and Space Milestones<br>
+                                4. Utilize innumerable open NASA data to create a once-in-a-lifetime experience<br>
+                                5. Sparking Curiosity for Next Generation of our country’s youth<br>
+                                6. Underprivileged children getting affordable quality education<br>
+                                7. Filling the void in VR space experience <br>
+                                8. Suitable for children with special needs</p>
+                        </div>
+                        <div class="col-md-10 col-lg-8" style="text-align: left;" >
+                            <h3 class="mb-4" style="text-align: center">Open Data used</h3>
+                            <ul style="display: flex; row-gap: 1.5rem; flex-direction: column;" >
+                                <li>
+                                  Perseverance and its parts
+                                  <ul>
+                                    <li><a href="https://mars.nasa.gov/mars2020/spacecraft/rover/">https://mars.nasa.gov/mars2020/spacecraft/rover/</a></li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  Big screen
+                                    <ul>
+                                        <li>
+                                            <a href="https://trajbrowser.arc.nasa.gov/">Mars 2020 Landing Site Selection - NASA Mars</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                  Trajectory browser
+                                  <ul>
+                                    <li>
+                                      <a href="https://trajbrowser.arc.nasa.gov/">https://trajbrowser.arc.nasa.gov/</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  Space Mission Design Tools
+                                  <ul>
+                                    <li>
+                                      <a href="https://www.nasa.gov/smallsat-institute/space-mission-design-tools/">https://www.nasa.gov/smallsat-institute/space-mission-design-tools/</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  Perseverance Entry Descent Landing Full webpage with descriptions
+                                  <ul>
+                                    <li>
+                                      <a href="https://mars.nasa.gov/mars2020/timeline/landing/entry-descent-landing/">https://mars.nasa.gov/mars2020/timeline/landing/entry-descent-landing/</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  Percy Landing Site
+                                  <ul>
+                                    <li>
+                                      <a href="https://sketchfab.com/3d-models/mars-perseverance-landing-site-f99f4a818024446587fb44b510887dbb">https://sketchfab.com/3d-models/mars-perseverance-landing-site-f99f4a818024446587fb44b510887dbb</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  Percy 3D Model
+                                  <ul>
+                                    <li>
+                                      <a href="https://mars.nasa.gov/resources/25042/mars-perseverance-rover-3d-model/">https://mars.nasa.gov/resources/25042/mars-perseverance-rover-3d-model/</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  Ingenuity 3D Model
+                                  <ul>
+                                    <li>
+                                      <a href="https://mars.nasa.gov/resources/25043/mars-ingenuity-helicopter-3d-model/">https://mars.nasa.gov/resources/25043/mars-ingenuity-helicopter-3d-model/</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  Footage by NASA JPL
+                                  <ul>
+                                    <li>
+                                      <a href="https://mars.nasa.gov/mars2020/multimedia/videos/">https://mars.nasa.gov/mars2020/multimedia/videos/</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  NASA Open API
+                                    <ul>
+                                        <li>
+                                            Mars Rover Photos API (rock samples and pictures)
+                                          </li>
+                                          <li>
+                                            Mars Weather report from Perseverance
+                                            <ul>
+                                              <li>
+                                                <a href="https://mars.nasa.gov/mars2020/mission/weather/">https://mars.nasa.gov/mars2020/mission/weather/</a>
+                                              </li>
+                                            </ul>
+                                          </li>
+                                          
+                                    </ul>
+                                </li>
+                                <li>
+                                  NASA Resources
+                                  <ul>
+                                    <li>
+                                      Mars Hi-Rise Trek Terrain Heightmaps
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  Research Sources
+                                  <ul>
+                                    <li>
+                                      <a href="https://solarsystem.nasa.gov/">https://solarsystem.nasa.gov/</a>
+                                    </li>
+                                    <li>
+                                      <a href="https://www.nasa.gov/">https://www.nasa.gov/</a>
+                                    </li>
+                                    <li>
+                                      <a href="https://www.planetary.org/">https://www.planetary.org/</a>
+                                    </li>
+                                    <li>
+                                      <a href="https://www.eoportal.org/other-space-activities/mars-perseverance-2020#communications">https://www.eoportal.org/other-space-activities/mars-perseverance-2020#communications</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  VR Resources
+                                  <ul>
+                                    <li>
+                                      WebXR Export: <a href="https://github.com/De-Panther/unity-webxr-export">https://github.com/De-Panther/unity-webxr-export</a>
+                                    </li>
+                                    <li>
+                                      WebXR Unity Plugin
+                                    </li>
+                                  </ul>
+                                </li>
+                              </ul>
+                              
+                        </div>
                     </div>
                     <!--/.row-->
                 </div>
@@ -420,8 +515,8 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col">
-                            <p class="text-uppercase color-9 ls mb-3">Freya Incorporated, 019 Appellation Ave, New Jersey, 535-118-7056</p>
-                            <p class="color-5 mb-0">Template by <a class="color-6" href="https://themewagon.com" target="_blank">Themewagon</a></p>
+                            <p class="text-uppercase color-9 ls mb-3"></p>
+                            
                         </div>
                     </div>
                     <!--/.row-->
@@ -444,7 +539,7 @@
         <script src="assets/lib/rellax/rellax.min.js"></script>
         <script src="assets/js/zanimation.js"></script>
         <script src="assets/js/inertia.js"></script>
-        <script src="assets/lib/flexslider/jquery.flexslider-min.js"></script>
+        <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.min.js"></script>
         <script src="assets/js/core.js"></script>
         <script src="assets/js/main.js"></script>
     </body>
